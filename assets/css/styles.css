@@ -1,1 +1,10 @@
+.jumbotron {
+    text-align: center;
+    background-color: black;
+    color: red;
+}
 
+.intro {
+    font-size: large;
+    font-weight: 900;
+}

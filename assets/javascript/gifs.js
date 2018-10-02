@@ -1,8 +1,6 @@
 $(document).ready(function() {
 
-var topics = ["Football","Baseball","Golf","Tennis","Basketball","Hockey","Soccer","Boxing","Rugby","Swimming"]
-var results;
-
+var topics = ["Football","Baseball","Golf","Tennis","Basketball","Hockey","Soccer","Boxing","Rugby","Swimming"];
 
 function makeButtons () {
     

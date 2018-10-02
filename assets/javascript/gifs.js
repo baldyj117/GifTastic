@@ -42,10 +42,9 @@ makeButtons();
 function dataPull() {
 
     var sportsName = $(this).attr("data-name");
-    var sportsStr = sportsName.split(" ").join("+");
-    var giphyURL = "https://api.giphy.com/v1/gifs/search?q=" + sportsStr + "&api_key=xk01q9mEBG6UkU6448q6ieLO8YMCsJGm&limit=10";
+    var giphyURL = "https://api.giphy.com/v1/gifs/search?q=" + sportsName + "&api_key=xk01q9mEBG6UkU6448q6ieLO8YMCsJGm&limit=10";
 
-            $.ajax({
+        $.ajax({
         url: giphyURL,
         method: "GET"
       }).done(function(response) {
